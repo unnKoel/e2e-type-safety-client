@@ -26,7 +26,18 @@ If you are developing a production application, we recommend updating the config
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 
+## Totual
+
+This project grows up following the [this totual](https://www.prisma.io/blog/e2e-type-safety-graphql-react-1-I2GxIfxkSZ)
+
 ## Tech stack
 
 - Vite
 - [TailwindCSS](https://tailwindcss.com/)
+- graphql-codegen
+
+  this library aims to read your GraphQL schema and generate types for your frontend codebase
+
+- urql
+
+  Graphql Client
